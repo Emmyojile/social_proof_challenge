@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  'League Spartan', sans-serif;
+}
+
+:root{
+    --VeryDarkMagenta: hsl(300, 43%, 22%);
+    --SoftPink: hsl(333, 80%, 67%);
+    --DarkGrayishMagenta: hsl(303, 10%, 53%);
+    --LightGrayishMagenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 4px solid black; */
+    margin-top: 50px;
+    height: 100vh;
+}
+
+.top_section{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    width: fit-content;
+}
+
+.header_top_section{
+    width: 400px;
+    /* border: 2px black solid; */
+    margin-top: 2rem;
+}
+
+.ratings{
+    margin-top: 2rem;
+    /* border: 2px solid  black; */
+    max-width: 700px;
+}
+
+.header_top_section h1{
+    color: var(--VeryDarkMagenta);
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 1rem;
+
+}
+ 
+.header_top_section p{
+    color: var(--DarkGrayishMagenta);
+    font-size: 15px;
+    font-weight: 500;  
+    margin: 1.5rem 0px;  
+    text-align: left;
+}
+
+.bar1, .bar2, .bar3{
+    background-color: var(--LightGrayishMagenta);
+    padding: 12px;
+    border: none;
+    border-radius: 9px;
+    margin-top: .8rem;
+    color: var(--VeryDarkMagenta);
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+}
+
+.stars{
+    padding-right: 40px;
+}
+.bar1{
+    margin-right: 2rem;
+}
+.bar2{
+    margin-left: 2rem;
+}
+.bar3{
+    position: absolute;
+    margin-left: 5rem
+}
+
+.card_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box1,.box2,.box3{
+    background-color: var(--VeryDarkMagenta);
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    height: 200px;
+    width: 300px;
+    margin-top: 2rem;
+}
+
+.head{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.buyer{
+    width: 50px;
+    border-radius: 25px;
+}
+
+.text{
+    color: var(--White);
+    text-align: left;
+}
+
+h3{
+    color: var(--SoftPink);
+}
+h2{
+    color: var(--White);
+}
+
+.box2{
+    position: relative;
+    top: 1rem;
+}
+
+.box3{
+    position: relative;
+    top: 2rem;
+}
